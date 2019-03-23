@@ -1,3 +1,58 @@
+$gold: rgb(246, 201, 57);
+
 .hometext{
-    padding-top: 5em;
+    padding: 5em 0;
+    text-align: left;
+    .plus{
+        color: $gold;
+        font-size: 3em;
+        font-weight: bolder;
+    }
+}
+/* HERO
+----------------------*/
+
+header {
+    padding: 100px 0 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.bg-gradient {
+    background-color:black;
+    .content{
+        background-image:url('../../assets/cube.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
+}
+
+.tagline {
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.img-holder {
+    height: 0;
+    padding-bottom: 33%;
+    overflow: hidden;
+}
+
+@media (max-width:1200px) {
+    .img-holder {
+        padding-bottom: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .tagline {
+        font-size: 17px;
+    }
+    .img-holder {
+        padding-bottom: 100%;
+    }
 }

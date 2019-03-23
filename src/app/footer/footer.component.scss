@@ -1,0 +1,40 @@
+footer{
+    >div{
+        padding:.7em 0;
+    }
+    
+    .icon-section {
+        clear: both;
+        overflow: hidden;
+        height: 50px;
+        display: inline-flex;
+    }
+    .icon-container {
+        width: 30px; 
+        float: left; 
+        position: relative;
+        text-align: left;
+    }
+    .icon-container [class^="ti-"], 
+    .icon-container [class*=" ti-"] {
+        color: #000;
+        position: absolute;
+        margin-top: 3px;
+        transition: .3s;
+    }
+    .icon-container:hover [class^="ti-"],
+    .icon-container:hover [class*=" ti-"] {
+        font-size: 1.5em;
+        margin-top: -5px;
+    }
+    .icon-container:hover .icon-name {
+        color: #000;
+    }
+    
+    @media (max-width:991px) {
+        .social-icons {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+}
