@@ -1,3 +1,81 @@
-.who{
-    margin-bottom: 10px;
+#about{
+    .section-title{
+        text-align: left;
+        h3{
+            font-family: "Rubik", sans-serif;
+        }
+        h5{
+            color:black;
+        }
+        h3:before{
+            font-family: 'themify';
+            content:'\e61a';
+            color:black;
+            font-size: 1em;
+            margin-right:10px;
+        }
+    }
+    .team{
+        >div{
+            text-align: center;
+        }
+        .member{
+            object-position: 50% 50%;
+            height: 201px;
+            object-fit: cover;
+        }
+        .desc{
+            display:grid;
+            text-align:center;
+            .icons{
+                a{
+                    margin-right:5px;
+                    text-decoration: none;
+                    color:black;
+                }
+            }
+        }
+    }
+    .plus{
+        color: black;
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .problem{
+        p:before{
+            font-family: 'themify';
+            content: '\e69c';
+            font-size: 1.5em;
+            margin-right:10px;
+
+        }
+    }
+    .solution{
+        p:before{
+            font-family: 'themify';
+            content: '\e695';
+            font-size: 1.5em;
+            margin-right:10px;
+        }
+    }
+    .highlight{
+        background-color:#FEF300;
+        background-image:url('../../assets/art.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        padding:10px 0;
+    }
+    .who{
+        background-color:#212121;
+        background-image:url('../../assets/board.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        padding:20px 0;
+        margin-top:3em;
+        p{  
+            color:white;
+        }
+    }
 }
