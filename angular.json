@@ -28,6 +28,7 @@
             ],
             "styles": [
               "node_modules/bootstrap/scss/bootstrap.scss",
+              "src/assets/themify-icons.css",
               "node_modules/owl.carousel/dist/assets/owl.carousel.css",
               "node_modules/owl.carousel/dist/assets/owl.theme.default.css",
               "src/styles.scss"
