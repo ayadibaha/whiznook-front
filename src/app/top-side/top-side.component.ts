@@ -17,7 +17,7 @@ export class TopSideComponent implements OnInit {
       includeUtm: true,
       includeReferrer: true
     });
-    amplitude.getInstance('whiznook').logEvent('User');
+    amplitude.getInstance('whiznook').logEvent('User Entrance');
   }
 
 }
