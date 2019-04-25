@@ -58,20 +58,26 @@
             margin-right:10px;
         }
     }
+    
     .highlight{
         background-color:#FEF300;
-        background-image:url('../../assets/art.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right;
+        @media (min-width: 768px) {
+            background-image:url('../../assets/art.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
         padding:10px 0;
     }
     .who{
+        @media (min-width: 768px) {
+            background-image:url('../../assets/board.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: left;
+        }
         background-color:#212121;
-        background-image:url('../../assets/board.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: left;
+        
         padding:20px 0;
         margin-top:3em;
         p{  

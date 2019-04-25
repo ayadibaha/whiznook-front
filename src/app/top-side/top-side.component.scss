@@ -25,6 +25,9 @@ header {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right;
+        @media (max-width: 768px) {
+            background-position: right bottom;
+        }
     }
 }
 

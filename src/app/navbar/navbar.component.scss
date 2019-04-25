@@ -54,5 +54,9 @@ $gold: rgb(246, 201, 57);
     }
     .navbar-nav .nav-item {
         text-align: center;
+        .nav-link{
+            color:black;
+            text-align:left;
+        }
     }
 }
