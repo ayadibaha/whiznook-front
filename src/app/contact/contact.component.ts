@@ -19,6 +19,6 @@ export class ContactComponent implements OnInit {
       includeUtm: true,
       includeReferrer: true
     });
-    amplitude.getInstance('whiznook').logEvent('Contact sent');
+    amplitude.getInstance('whiznook').logEvent('Contact button clicked');
   }
 }

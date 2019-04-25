@@ -20,10 +20,9 @@ export class NavbarComponent implements OnInit {
       includeUtm: true,
       includeReferrer: true
     });
-    amplitude.getInstance('whiznook').logEvent('home clicked');
-    console.log('here');
+    amplitude.getInstance('whiznook').logEvent('home');
   }
-  
+
   about() {
     amplitude.getInstance('whiznook').init('50d1d8f03bf80ee4d43ea5e7b5052209', {
       // optional configuration options
