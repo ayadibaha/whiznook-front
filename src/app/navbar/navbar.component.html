@@ -7,10 +7,10 @@
                   <a class="navbar-brand" href="index.html"><img class="img-fluid" src="assets/logo.png" alt="Whiznook Logo" /></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                   <div class="collapse navbar-collapse" id="navbar">
                       <ul class="navbar-nav ml-auto">
-                          <li class="nav-item"> <a (click)="home" class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
-                          <li class="nav-item"> <a (click)="about" class="nav-link" href="#about">ABOUT</a> </li>
-                          <li class="nav-item"> <a (click)="play" class="nav-link" href="#play">PLAY</a> </li>
-                          <li class="nav-item"> <a (click)="contact" class="nav-link" href="#contact">CONTACT</a> </li>
+                          <li (click)="home()" class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
+                          <li (click)="about()" class="nav-item"> <a class="nav-link" href="#about">ABOUT</a> </li>
+                          <li (click)="play()" class="nav-item"> <a class="nav-link" href="#play">PLAY</a> </li>
+                          <li (click)="contact()" class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
                           <!-- <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Whiz In</a></li> -->
                       </ul>
                   </div>
