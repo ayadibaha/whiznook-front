@@ -2,7 +2,9 @@ $gold: rgb(246, 201, 57);
 
 #contact{
     background-color:#212121;
-
+    #mc_embed_signup{
+        background-color:transparent!important;
+    }
     .top{
         h3{
             color:$gold;
