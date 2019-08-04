@@ -70,10 +70,12 @@
         padding:40px 0;
     }
     .problematic{
-        background-image: url('../../assets/astronaut.png');
-        background-repeat: no-repeat;
-        background-size: 24%;
-        background-position: 15% 50%;
+        @media (min-width: 768px) {
+            background-image: url('../../assets/astronaut.png');
+            background-repeat: no-repeat;
+            background-size: 24%;
+            background-position: 15% 50%;
+        }
     }
     .who{
         // @media (min-width: 768px) {
