@@ -10,7 +10,12 @@ $gold: rgb(246, 201, 57);
     color:black;
 
     .img-fluid{
-        height:25px;
+        height:35px;
+    }
+    @media (min-width: 992px) {
+        .img-fluid{
+            height: 30px;
+        }
     }
 }
 
