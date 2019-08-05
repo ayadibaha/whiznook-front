@@ -19,10 +19,53 @@
         >div{
             text-align: center;
         }
-        .member{
+        .anastasia{
+            background-image:url('../../assets/anastasia.jpeg');
             object-position: 50% 50%;
             height: 201px;
             object-fit: cover;
+            background-position: center;
+            background-size: 100%;
+            @media (max-width: 768px) {
+                background-size: 50% 100%;
+            }
+            background-repeat: no-repeat;
+        }
+        .james{
+            background-image:url('../../assets/james.jpg');
+            object-position: 50% 50%;
+            height: 201px;
+            object-fit: cover;
+            background-position: center;
+            background-size: 100%;
+            @media (max-width: 768px) {
+                background-size: 50% 120%;
+            }
+            background-repeat: no-repeat;
+        }
+        .baha{
+            background-image:url('../../assets/baha.jpg');
+            object-position: 50% 50%;
+            height: 201px;
+            object-fit: cover;
+            background-position: center;
+            background-size: 100%;
+            @media (max-width: 768px) {
+                background-size: 50% 100%;
+            }
+            background-repeat: no-repeat;
+        }
+        .troudi{
+            background-image:url('../../assets/troudi.jpg');
+            object-position: 50% 50%;
+            height: 201px;
+            object-fit: cover;
+            background-position: center;
+            background-size: 100%;
+            @media (max-width: 768px) {
+                background-size: 50% 100%;
+            }
+            background-repeat: no-repeat;
         }
         .desc{
             display:grid;

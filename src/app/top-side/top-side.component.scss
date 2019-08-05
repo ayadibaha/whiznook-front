@@ -27,6 +27,7 @@ header {
         background-position: right;
         @media (max-width: 768px) {
             background-position: right bottom;
+            background-size: 50%;
         }
     }
 }
